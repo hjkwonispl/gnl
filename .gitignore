@@ -1,0 +1,9 @@
+output/
+log/
+data
+data/
+.vscode/
+src/__pycache__/
+src/lib/__pycache__/
+src/.vscode
+src/lib/.vscode
