@@ -15,7 +15,7 @@ Our code requires the following environment.
 
 ### Database
 We used the validation split of the ImageNet2012 dataset.
-It is available at [http://www.image-net.org/challenges/LSVRC/2012/] or
+It is available at [ImageNet](http://www.image-net.org/challenges/LSVRC/2012/) or
 [here](https://drive.google.com/file/d/1hlKtHCBJ02hoDPzs2sqx8mS1K7_4sSSs/view?usp=sharing).
 
 ## Installation
