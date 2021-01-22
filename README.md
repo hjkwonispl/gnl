@@ -2,7 +2,7 @@
 
 Improving Explainability of Integrated Gradients with Guided Non-Linearity
 ======================
-This page provide source code of the paper 
+This page provides the source code of the paper 
 'Improving Explainability of Integrated Gradients with Guided Non-Linearity'  
 
 ## Requirements
@@ -57,7 +57,7 @@ It has the following options.
 - If you want to get attrubution heatmap of predicted class with 'ResNet50' for '1651'th image by our method (Fig 5. (e)-(f)),
    > python src/main.py -md guided_integrated_gradients -mn ResNet50 -si 1651 -ie 1 -ei 1652
 
-- If you want to get attrubution heatmaps of predicted class with 'VGG16' for 5,000 linearly sampled images from the validation split of ImageNet by ours (Table I),
+- If you want to get attribution heatmaps of predicted class with 'VGG16' for 5,000 linearly sampled images from the validation split of ImageNet by ours (Table I),
    > python src/main.py -md integrated_gradients -mn VGG16 -si 1 -ie 10 -ei 50000
 
 
